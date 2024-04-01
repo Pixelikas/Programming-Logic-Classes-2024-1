@@ -1,4 +1,4 @@
-# Programming-Logic-Classes-2024/1
+# Programming-Logic-Classes-2024-1
 
 Permanent repository for class coding files.<br>
 
