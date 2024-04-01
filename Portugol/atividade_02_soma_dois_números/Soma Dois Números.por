@@ -1,20 +1,32 @@
-// 1 - Faça um programa no qual o usuário digite dois números e mostre na tela a soma deles.
+// 02 - FaÃ§a um programa no qual o usuÃ¡rio digite dois nÃºmeros e mostre na tela a soma deles.
 
 programa {
   funcao inicio() {
        
     real numeroUm, numeroDois, somaNumeros
 
-    escreva("Digita um número aí, carinha: ")
+    escreva("Digita um nÃºmero aÃ­, carinha: ")
     leia(numeroUm)
 
-    escreva("Digita outro número aí, carinha: ")
+    escreva("Digita outro nÃºmero aÃ­, carinha: ")
     leia(numeroDois)
 
     somaNumeros = numeroUm + numeroDois
 
-    escreva("A soma dos números digitados foi: " , somaNumeros)
+    escreva("A soma dos nÃºmeros digitados foi: " , somaNumeros)
 
 
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 5; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

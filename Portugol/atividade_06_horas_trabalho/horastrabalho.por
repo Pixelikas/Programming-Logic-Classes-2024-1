@@ -1,4 +1,4 @@
-/* Um(a) programador(a) deseja, ao final do mês, saber quantas horas por
+/* 06 - Um(a) programador(a) deseja, ao final do mês, saber quantas horas por
 semana em média estudou programação. Crie um programa no qual seja
 digitado a quantidade de horas de cada semana do mês e no final mostre
 a média de horas por semana naquele mês. */
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 264; 
+ * @POSICAO-CURSOR = 8; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

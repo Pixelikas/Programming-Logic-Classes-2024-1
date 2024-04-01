@@ -1,5 +1,5 @@
 
-/* Na sua lista de compras do mercado, constam apenas 3 itens: arroz, 
+/* 04 - Na sua lista de compras do mercado, constam apenas 3 itens: arroz, 
 batata palha e um suco de garrafa. Porém, você possui apenas uma nota
 de R$100 para pagar. Faça um programa no qual sejam digitados os valores
 dos itens e mostre na tela valor que você deve receber (troco).*/
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 655; 
+ * @POSICAO-CURSOR = 9; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

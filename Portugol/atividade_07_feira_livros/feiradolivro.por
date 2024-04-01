@@ -1,4 +1,4 @@
-/* Uma feira de livros está fazendo promoção onde na compra de 3 livros,
+/* 07 - Uma feira de livros está fazendo promoção onde na compra de 3 livros,
 o(a) comprador(a) ganha 15% de desconto. Criar um programa que receba
 os valores dos 3 livros e mostra na tela o total dos livros sem desconto
 e com desconto. */
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 244; 
+ * @POSICAO-CURSOR = 8; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
