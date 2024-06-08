@@ -2,7 +2,7 @@
 
 let leitosTotal = 130, leitosIndisponiveis = 130/2, limitacao = 25
 let leitosDisponiveis = leitosTotal - leitosIndisponiveis - limitacao
-let entradaSaida
+let entradaSaida, leitosMaximo = 40
 
     while(leitosDisponiveis >= 0){
 
@@ -14,7 +14,7 @@ let entradaSaida
 
         }else{
 
-            if(leitosDisponiveis == 40){
+            if(leitosDisponiveis == leitosMaximo){
 
                 alert("Não pode abrir vagas!")
 
