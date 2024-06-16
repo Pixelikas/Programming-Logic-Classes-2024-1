@@ -3,12 +3,13 @@
 let nomeJogadorUm, nomeJogadorDois
 let cartaDigitada
 let somaCartasJogadorUm = 0, somaCartasJogadorDois = 0
+let quantidadeCartas = 10
 let jogadorUm = true
 
 nomeJogadorUm = prompt('Digite o seu nome, jogador 1: ')
 nomeJogadorDois = prompt('Digite o seu nome, jogador 2: ')
 
-for(i=0; i < 10; i++){
+for(i=0; i < quantidadeCartas; i++){
 
     cartaDigitada = Number(prompt('Digite o valor da carta: '))
     
