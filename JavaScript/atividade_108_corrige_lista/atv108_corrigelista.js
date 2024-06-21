@@ -9,4 +9,4 @@ let totalRemovidos = 10
 
     }
 
-alert(listaNumeros)
+alert('Lista Corrigida: ' + listaNumeros)
