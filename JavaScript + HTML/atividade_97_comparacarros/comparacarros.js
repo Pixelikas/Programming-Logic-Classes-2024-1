@@ -1,3 +1,4 @@
+/* Criar um sistema de comparação de carros, de acordo com a imagem. Devem ser digitadas notas de 0 a 10 para os 3 critérios (conforto, economia, design) de cada carro, o que irá gerar uma média com duas casas após a vírgula. Ao clicar em comparar, devem ser mostradas a médias de cada carro e o melhor carro (carro com melhor média) nos respectivos campos. */
 
 let elementoInputUmConforto = document.getElementById('inptConfortoUm')
 let elementoInputDoisConforto = document.getElementById('inptConfortoDois')
