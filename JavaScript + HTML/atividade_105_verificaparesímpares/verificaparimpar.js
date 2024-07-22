@@ -1,3 +1,4 @@
+/* Programar um sistema onde o usuário preencha 5 números (inputs) com um botão que verifica se os números são pares ou ímpares. Caso algum número não seja preenchido, mostrar "Indefinido". */
 
 let elementoInputNumeroUm = document.getElementById('inptNumeroUm')
 let elementoInputResultadoUm = document.getElementById('inptResultadoUm')
