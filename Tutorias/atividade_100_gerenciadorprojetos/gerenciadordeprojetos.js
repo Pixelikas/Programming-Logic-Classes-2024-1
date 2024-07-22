@@ -1,3 +1,12 @@
+/* Criar um sistema para gerenciar projetos e valores de projetos, com HTML e JS. O sistema deve deve seguir o layout anexo (imagem).
+
+O usuário deverá informar dados de 5 projeto (nome do projeto, valor cobrado por hora e quantidade de horas previstas para concluir).
+
+Ao final devem ser mostrados:
+1) O valor individual de cada projeto
+2) O valor total dos projetos.
+*/
+
 let inputValorUm = document.getElementById ("inptValorUm")
 let inputValorDois = document.getElementById ("inptValorDois")
 let inputValorTres = document.getElementById ("inptValorTres")
