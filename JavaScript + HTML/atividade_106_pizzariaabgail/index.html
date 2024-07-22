@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria da Abgail</title>
+</head>
+<body bgcolor="#A6D424 ">
+
+    <center>
+
+        <h2>Pizzaria da Abgail</h2>
+        <b><label style="color: white;">Descontos de 15% em valores acima de R$50</label></b><br><br>
+        <label>Escolha sua pizza</label><br><br>
+        <select id="slct">
+
+            <option value="20">Lombinho</option>
+            <option value="50">Calabresa</option>
+            <option value="60">Portuguesa</option>
+            <option value="65">Camarão</option>
+
+        </select><br><br><br><br><br><br>
+        <button onclick="CalculaValor()" style="background-color: black; color: azure; border: solid 3px black;">Comprar</button>
+        <input style="width: 80px;" id="inptValor" placeholder="Valor" readonly>
+        <input style="width: 80px;" id="inptValorFinal" placeholder="Valor Final" readonly>
+
+    </center>
+
+    <script src="pizzariaabgail.js"></script>
+
+</body>
+</html>
