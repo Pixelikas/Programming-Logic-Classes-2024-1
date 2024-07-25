@@ -1,4 +1,4 @@
 # Média-Notas
 School average calculator, made using HTML, JavaScript and CSS.<br>
 
-![print-média-notas](https://github.com/user-attachments/assets/44dffe65-5c76-4bd6-8f9f-4ad0928a6e0f)
+![print-média-notas](https://github.com/user-attachments/assets/36b4faec-aa08-4633-a46d-cb65917527c0)
