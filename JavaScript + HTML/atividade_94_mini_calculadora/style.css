@@ -1,0 +1,24 @@
+.txts{
+
+    color:black;
+    font-family: Arial;;
+
+}
+
+
+.btns{
+
+    color:white;
+    background-color: black;
+    border: solid 2px black;
+    border-radius: 5px;
+
+}
+
+.inpts{
+
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+
+}

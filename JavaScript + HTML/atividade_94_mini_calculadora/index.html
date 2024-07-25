@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body bgcolor="#CDFE7D">
 
     <center>
 
-        <h2>Calculadora Mini</h2>
-        <label>Número 1</label>&nbsp;&nbsp;<input id="inptNumeroUm" type="number"><br><br>
-        <label>Número 2</label>&nbsp;&nbsp;<input id="inptNumeroDois" type="number"><br><br>
-        <button onclick="Somar()">Soma</button>&nbsp;&nbsp;<button onclick="Subtrair()">Subtrai</button>&nbsp;&nbsp;<button onclick="Multiplicar()">Multiplica</button>&nbsp;&nbsp;<button onclick="Dividir()">Divide</button><br><br>
-        <button onclick="LimparDados()">Limpar Dados</button>
+        <h2 class="txts">Mini Calculadora</h2>
+        <label class="txts">Número 1</label>&nbsp;
+        <input class="inpts" id="inptNumeroUm" type="number" min="-100000" max="100000"><br><br>
+        <label class="txts">Número 2</label>&nbsp;
+        <input class="inpts" id="inptNumeroDois" type="number" min="-100000" max="100000"><br><br>
+        <button class="btns" onclick="Somar()">Soma</button>&nbsp;&nbsp;
+        <button class="btns" onclick="Subtrair()">Subtrai</button>&nbsp;&nbsp;
+        <button class="btns" onclick="Multiplicar()">Multiplica</button>&nbsp;&nbsp;
+        <button class="btns" onclick="Dividir()">Divide</button><br><br>
+        <button class="btns" onclick="LimparDados()">Limpa Dados</button>
 
     </center>
 
