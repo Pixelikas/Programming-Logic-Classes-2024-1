@@ -5,51 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compra de Produtos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <center>
         <div id="topo">
 
-            <h1>Compra de Produtos com Desconto</h1>
+            <h1 class="texts">Compra de Produtos com Desconto</h1>
 
         </div>
 
         <div id="meio">
 
-            <label>Descrição do Produto</label>
+            <label class="texts">Descrição do Produto</label>
             
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;</label>
+            &nbsp;&nbsp;
 
-            <label>Quantidade</label>
+            <label class="texts">Quantidade</label>      
+            &nbsp; &nbsp; &nbsp;
             
-            &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            
-            <label>Valor</label><br>
+            <label class="texts">Valor</label><br>
 
+            <br>
         </div>
 
         <div id="baixo">
 
-            <input placeholder="Produto 1">
-            <input id="quantidadeUm" type="number">
-            <input id="valorUm"><br><br>
+            <input class="inpts" placeholder="Produto 1">
+            <input class="inpts" id="quantidadeUm" type="number" min="0" max="100">
+            <input class="inpts" id="valorUm" type="number"  min="0" max="100000"><br><br>
 
-            <input placeholder="Produto 2">
-            <input id="quantidadeDois" type="number">
-            <input id="valorDois"><br><br>
+            <input class="inpts" placeholder="Produto 2">
+            <input class="inpts" id="quantidadeDois" type="number" min="0" max="100">
+            <input class="inpts" id="valorDois" type="number"  min="0" max="100000"><br><br>
 
-            <input placeholder="Produto 3">
-            <input id="quantidadeTres" type="number">
-            <input id="valorTres"><br><br>
+            <input class="inpts" placeholder="Produto 3">
+            <input class="inpts" id="quantidadeTres" type="number" min="0" max="100">
+            <input class="inpts" id="valorTres" type="number"  min="0" max="100000"><br><br>
 
-            <input placeholder="Produto 4">
-            <input id="quantidadeQuatro" type="number">
-            <input id="valorQuatro"><br><br>
+            <input class="inpts" placeholder="Produto 4">
+            <input class="inpts" id="quantidadeQuatro" type="number" min="0" max="100">
+            <input class="inpts" id="valorQuatro" type="number"  min="0" max="100000"><br><br>
 
-            <label>Desconto %</label>
-            <input id="descProdutos"><br><br>
-            <button onclick="Calcula()">Calcular</button>&nbsp;&nbsp;<input id="resultado" placeholder="Total com desconto">
+            <label class="texts">Desconto %</label>
+            <input class="inpts" id="descProdutos"><br><br>
+            <button class="btn" onclick="Calcula()">Calcular</button>&nbsp;&nbsp;
+            <input class="inpts" id="resultado" placeholder="Total com desconto">
 
         </div>
     
