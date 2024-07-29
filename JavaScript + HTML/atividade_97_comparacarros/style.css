@@ -1,0 +1,29 @@
+.texts{
+
+    color: azure;
+    font-family: Arial;
+
+}
+
+.textsNon{
+
+    font-family: Arial;
+
+}
+
+.inpts{
+
+    border: solid 2px white;
+    border-radius: 5px;
+
+}
+
+.btn{
+
+
+    background-color: black;
+    color: azure;
+    border: solid 2px black;
+    border-radius: 5px;
+
+}
