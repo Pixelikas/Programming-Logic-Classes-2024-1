@@ -1,0 +1,27 @@
+body{
+
+    background-color: #FCFC82;
+
+}
+
+.texts{
+
+    font-family: Arial;
+
+}
+
+.inpts{
+
+    border: solid 5px white;
+    border-radius: 3px;
+
+}
+
+.btn{
+
+    color:white;
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 3px;
+
+}
