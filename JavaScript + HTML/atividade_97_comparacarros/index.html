@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compara Carros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body bgcolor="rebeccapurple">
 
     <center>
 
-        <h1> Comparador de Carros </h1>
+        <h1 class="textsNon"> Comparador de Carros </h1>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label style="color: azure;">Conforto</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label style="color: azure;">Economia</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label style="color: azure;">Design</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <label style="color: azure;">Média</label>
+        <label class="texts">Conforto</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label class="texts"">Economia</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label class="texts"">Design</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label class="texts"">Média</label>
         <br><br>
 
-        <label style="color: azure;"> Carro 1</label>&nbsp;&nbsp;
-        <input id="inptConfortoUm" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptEconomiaUm" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptDesignUm" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptMediaUm" type="number" min="0" max="10">
+        <label class="texts"> Carro 1</label>&nbsp;&nbsp;
+        <input class="inpts" id="inptConfortoUm" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptEconomiaUm" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptDesignUm" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptMediaUm" type="number" min="0" max="10">
         <br><br>
 
-        <label style="color: azure;"> Carro 2</label>&nbsp;&nbsp;
-        <input id="inptConfortoDois" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptEconomiaDois" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptDesignDois" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptMediaDois" type="number" min="0" max="10">
+        <label class="texts"> Carro 2</label>&nbsp;&nbsp;
+        <input class="inpts" id="inptConfortoDois" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptEconomiaDois" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptDesignDois" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptMediaDois" type="number" min="0" max="10">
         <br><br>
 
-        <label style="color: azure;"> Carro 3</label>&nbsp;&nbsp;
-        <input id="inptConfortoTres" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptEconomiaTres" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptDesignTres" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
-        <input id="inptMediaTres" type="number" min="0" max="10">
+        <label class="texts"> Carro 3</label>&nbsp;&nbsp;
+        <input class="inpts" id="inptConfortoTres" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptEconomiaTres" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptDesignTres" type="number" min="0" max="10" placeholder="Nota">&nbsp;&nbsp;&nbsp;&nbsp;
+        <input class="inpts" id="inptMediaTres" type="number" min="0" max="10">
         <br><br>
 
-        <label>Melhor Carro</label>&nbsp;&nbsp;
-        <input id="inptResultado"  placeholder="Resultado">&nbsp;&nbsp;
-        <button style="background-color: black; color: azure; border: solid 2px black;" onclick="ComparaCarros()"> Comparar </button><br><br>
+        <label class="textsNon">Melhor Carro</label>&nbsp;&nbsp;
+        <input class="inpts" id="inptResultado"  placeholder="Resultado">&nbsp;&nbsp;
+        <button class="btn" onclick="ComparaCarros()"> Comparar </button><br><br>
 
     </center>
 
