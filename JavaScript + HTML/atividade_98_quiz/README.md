@@ -1,4 +1,4 @@
 # Quiz
 A three question quiz, made using HTML, JavaScript and CSS.<br>
 
-![print-quiz](https://github.com/user-attachments/assets/fba47526-492e-4d0a-b102-4293dd71bb61)
+![print-quiz](https://github.com/user-attachments/assets/bc1d8369-e2df-41fa-a273-c41af8db0599)
