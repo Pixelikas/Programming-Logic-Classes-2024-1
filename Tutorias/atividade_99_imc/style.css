@@ -1,0 +1,21 @@
+body{
+
+    font-family: Arial;
+
+}
+
+input{
+
+    border: solid;
+    border-radius: 3px;
+
+}
+
+button{
+
+    background-color: black;
+    color: azure; 
+    border: solid 4px black;
+    border-radius: 3px;
+
+}
