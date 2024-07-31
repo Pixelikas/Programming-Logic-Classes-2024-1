@@ -1,0 +1,34 @@
+body{
+
+    background-color: #486EAA;
+
+}
+
+.title{
+
+    color: gold;
+    font-family: Arial;
+
+
+}
+
+.texts{
+
+    color: whitesmoke;
+
+}
+
+label{
+
+    font-family: Arial;
+
+}
+
+
+input, button{
+
+    background-color: white;
+    border: solid 5px white;
+    border-radius: 5px;
+
+}
