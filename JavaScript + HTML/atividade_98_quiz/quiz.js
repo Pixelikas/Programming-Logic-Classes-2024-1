@@ -68,14 +68,14 @@ function MostraResultado(){
 
             if(elementoRadioAlert.checked){
 
-                alert('Sua pontuação: ' + somaPontos + ' pontos! :D')
+                alert('Sua pontuação: ' + somaPontos + ' ponto(s)! :D')
                 elementoSelectUm.value = 2
                 elementoSelectDois.value = 2
                 elementoSelectTres.value = 2
 
             }else if(elementoRadioInput.checked){
 
-                elementoInputResultado.value = somaPontos + ' pontos! :D'
+                elementoInputResultado.value = somaPontos + ' ponto(s)! :D'
                 elementoLabelResultado.innerHTML = 'Label para resultado'
                 elementoSelectUm.value = 2
                 elementoSelectDois.value = 2
@@ -83,7 +83,7 @@ function MostraResultado(){
 
             }else if(elementoRadioLabel.checked){
 
-                elementoLabelResultado.innerHTML = 'Pontos: '+ somaPontos + ' pontos :D'
+                elementoLabelResultado.innerHTML = 'Pontos: '+ somaPontos + ' ponto(s)! :D'
                 elementoInputResultado.value = ''
                 elementoSelectUm.value = 2
                 elementoSelectDois.value = 2
