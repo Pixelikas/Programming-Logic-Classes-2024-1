@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compara Carros</title>
+    <title>Gerenciador de Projetos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <center>
 
-        <h1> Calculadora de IMC </h1>
- 
-        <label> Peso </label>&nbsp;&nbsp;
-        <input id="inptPeso" type="number" min="0" max="1000" placeholder="Peso"><br><br>
-        <label> Altura </label>&nbsp;&nbsp;
-        <input id="inptAltura" type="number" min="0" max="1000" placeholder="Altura"><br><br>
+        <h1> Gerenciador de Projetos </h1>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Valor Hora</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Qntd Horas</label>
         <br>
-        <button onclick="CalculaImc()"> Calcular IMC</button><br><br>
-        <br>
-        <label>IMC</label>&nbsp;&nbsp;
-        <input id="inptImc" type="number" min="0" max="1000" placeholder="Seu IMC" readonly><br><br>
-        <label>Resultado</label>&nbsp;&nbsp;
-        <input id="inptResultado"  placeholder="Resultado" readonly><br><br>
 
+        <label> Projeto 1</label>
+        <input>
+        <input id="inptValorUm" type="number" min="0" max="1000">
+        <input id="inptHoraUm" type="number" min="0" max="1000">
+        <br><br>
+
+        <label> Projeto 2</label>
+        <input>
+        <input id="inptValorDois" type="number" min="0" max="1000">
+        <input id="inptHoraDois" type="number" min="0" max="1000">
+        <br><br>
+
+        <label> Projeto 3</label>
+        <input>
+        <input id="inptValorTres" type="number" min="0" max="1000">
+        <input id="inptHoraTres" type="number" min="0" max="1000">
+        <br><br>
+        
+        <button onclick="CalculaProjetos()" style="background-color: black; color: azure; border: solid 2px black;"> Calcular </button><br><br>
+        
+        <div id="divResultado"></div>
+        
     </center>
 
-    <script src="imc.js"></script>
-    
+    <script src="gerenciadordeprojetos.js"></script>
 </body>
+
 </html>
