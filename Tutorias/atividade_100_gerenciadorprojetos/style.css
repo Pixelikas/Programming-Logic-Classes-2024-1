@@ -1,12 +1,13 @@
 body{
 
+    background-color: #9BF6E1;
     font-family: Arial;
 
 }
 
 input{
 
-    border: solid;
+    border: solid 3px white;
     border-radius: 3px;
 
 }
@@ -15,7 +16,7 @@ button{
 
     background-color: black;
     color: azure; 
-    border: solid 4px black;
+    border: solid 8px black;
     border-radius: 3px;
 
 }
