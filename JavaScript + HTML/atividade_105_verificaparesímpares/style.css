@@ -1,0 +1,28 @@
+body{
+
+    background-color:darkgrey;
+    font-family: Arial;
+
+}
+
+input{
+
+    border: solid 3px white;
+    border-radius: 3px;
+    
+}
+
+button{
+
+    background-color: #FA9000;
+    border: solid 5px #FA9000;
+    color: white;
+    border-radius: 3px;
+
+}
+
+h2{
+
+    color: #FA9000;
+
+}
