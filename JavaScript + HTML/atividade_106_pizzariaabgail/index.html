@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria da Abgail</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#A6D424 ">
+<body>
 
     <center>
 
         <h2>Pizzaria da Abgail</h2>
-        <b><label style="color: white;">Descontos de 15% em valores acima de R$50</label></b><br><br>
+        <h5>Descontos de 15% em valores acima de R$50</h5>
         <label>Escolha sua pizza</label><br><br>
         <select id="slct">
 
@@ -20,9 +21,9 @@
             <option value="65">Camarão</option>
 
         </select><br><br><br><br><br><br>
-        <button onclick="CalculaValor()" style="background-color: black; color: azure; border: solid 3px black;">Comprar</button>
-        <input style="width: 80px;" id="inptValor" placeholder="Valor" readonly>
-        <input style="width: 80px;" id="inptValorFinal" placeholder="Valor Final" readonly>
+        <button onclick="CalculaValor()">Comprar</button>
+        <input id="inptValor" placeholder="Valor" readonly>
+        <input id="inptValorFinal" placeholder="Valor Final" readonly>
 
     </center>
 
