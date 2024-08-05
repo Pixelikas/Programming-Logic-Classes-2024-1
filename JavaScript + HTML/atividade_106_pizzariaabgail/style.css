@@ -1,0 +1,29 @@
+body{
+
+    background-color: #A6D424;
+    font-family: Arial;
+
+}
+
+label{
+
+    color: white;
+
+}
+
+input{
+
+    width: 80px;
+    border: solid 3px white;
+    border-radius: 3px
+
+}
+
+button{
+
+    background-color: black;
+    color: azure; 
+    border: solid 3px black;
+    border-radius: 3px;
+
+}
