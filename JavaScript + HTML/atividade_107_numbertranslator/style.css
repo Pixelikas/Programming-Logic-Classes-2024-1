@@ -1,0 +1,35 @@
+body{
+
+    background-color: #F65281;
+    font-family: Arial;
+
+}
+
+h1, label{
+
+    color:white;
+
+}
+
+input{
+
+    background-color: white;
+    border: solid 2px white; 
+    border-radius:3px;
+
+}
+
+#lblRes{
+
+    color: gold;
+
+}
+
+button{
+
+    background-color: white;
+    border: solid 2px white; 
+    border-radius:3px;
+    color: #2E2E2E;
+
+}
